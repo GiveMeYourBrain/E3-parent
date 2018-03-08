@@ -1,7 +1,7 @@
 package cn.e3mall.service.Impl;
 
+import cn.e3mall.common.pojo.DataGridResult;
 import cn.e3mall.mapper.TbItemMapper;
-import cn.e3mall.pojo.DataGridResult;
 import cn.e3mall.pojo.TbItem;
 import cn.e3mall.pojo.TbItemExample;
 import cn.e3mall.service.ItemService;
@@ -17,6 +17,8 @@ public class ItemServiceImpl implements ItemService {
 
     @Autowired
     private  TbItemMapper tbItemMapper;
+
+
 
 
     public TbItem getItemById(long id) {
@@ -45,4 +47,7 @@ public class ItemServiceImpl implements ItemService {
 
         return result;
     }
+
+
+
 }

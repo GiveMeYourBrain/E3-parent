@@ -33,6 +33,7 @@
     <dubbo:application name="E3-manager-controller"/>
     <dubbo:registry protocol="zookeeper" address="192.168.164.128:2181"/>
     <dubbo:reference interface="cn.e3mall.service.ItemService" id="itemService" />
+    <dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" />
 
 
 
